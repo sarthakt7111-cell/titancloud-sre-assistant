@@ -1,0 +1,30 @@
+# Environment and API keys
+.env
+.env.local
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm
+npm-debug.log*
+
+# Databases & local storage
+chroma_db/
+titancloud.db
+titancloud.db-journal
+
+# OS & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
